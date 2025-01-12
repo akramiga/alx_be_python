@@ -17,4 +17,4 @@ elif temp_value == "C":
     fahren = convert_to_fahrenheit(temperature)
     print(f"{temperature}°{temp_value} is {fahren}°F")  
 else:
-    print("Good bye!!!")            
+    print("Invalid temperature. Please enter a numeric value.")            
