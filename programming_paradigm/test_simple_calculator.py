@@ -15,7 +15,7 @@ class TestOperator(unittest.TestCase):
     def test_multiplication(self):
         self.assertEqual(self.calc.multiply(2,4), 8)
 
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(10, 5), 2)
 
     def test_division_by_zero(self):
