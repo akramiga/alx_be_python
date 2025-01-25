@@ -20,8 +20,7 @@ class PrintBook(Book):
 
 class Library:
     def __init__(self):
-        self.books: list[Book] = []  # Initializes an empty list of books
-
+        self.books = []  #: list[Book]
     def add_book(self, book: Book):
         """Adds a Book, EBook, or PrintBook instance to the library."""
         if isinstance(book, Book):  # Check if the object is an instance of Book or its subclasses
